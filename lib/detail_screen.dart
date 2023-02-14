@@ -163,7 +163,7 @@ class _DetailWebPageState extends State<DetailWebPage> {
 
     return Scaffold(
       appBar: kIsWeb ? null : AppBar(),
-      body: Padding(
+      body: SingleChildScrollView(
         padding: const EdgeInsets.symmetric(
           vertical: 16,
           horizontal: 64,
